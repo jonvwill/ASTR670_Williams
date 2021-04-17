@@ -13,9 +13,9 @@ import time
 
 SCENE = vp.canvas(width=1200, height=1200)
 
-
 CURVE = vp.sphere(make_trail=True, radius=1)
 
+# Initiate angles for circular and epicycle orbits, as well as angular increase per step
 Theta = 0
 Phi = 0
 DTheta = (np.pi*.01)
